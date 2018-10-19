@@ -8,7 +8,7 @@ input_file='B:\\text.txt'
 a=open(input_file,'r')
 text=a.read()
 
-#no need to change path for the next code
+#no need to change path for the next line of code
 #delete this file from specified folder if you are not running it for the first time
 c=open('B:\singles.txt','a+')
 
