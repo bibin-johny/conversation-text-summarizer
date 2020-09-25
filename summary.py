@@ -10,7 +10,7 @@ text=a.read()
 
 #no need to change path for the next code
 #delete this file from specified folder if you are not running it for the first time
-c=open('B:\singles.txt','a+')
+c=open('B:\singles.txt','a') #a+ is not required
 
 list_of_values1=([n for n in range(len(text)) if text.find(':', n) == n])
 list_of_values1.append(len(text)+1)
